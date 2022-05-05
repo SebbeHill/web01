@@ -1,0 +1,54 @@
+body {
+    background-image: url(/images/space.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+hr {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.globe {
+    height: 100px;
+    margin: 25px;
+}
+
+.book {
+    height: 100px;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: -2px;
+}
+
+.cd {
+    height: 120px;
+    margin: 12px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1px;
+    padding: 1px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 15px;
+    justify-content: center;
+  }
+
+  li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+  }
+
+  li a :hover{
+      height: 120px
+  }
+  
+
+
