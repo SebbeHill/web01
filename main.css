@@ -105,5 +105,32 @@ li a :hover{
     height: 100%;
 }
 
+@media screen and (max-width:600px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        top: 0;
+        padding: 5px;
+    }
+
+    #bannerimage{
+        width: auto;
+        margin-top: 90px;
+        margin-left: 0px;
+    }
+
+    marquee {
+        margin-left: 5px;
+    }
+
+    .wrapper {
+        margin-left: 5px;
+    }
+}
+
 
 
